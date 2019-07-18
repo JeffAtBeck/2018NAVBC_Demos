@@ -1,0 +1,23 @@
+{
+  "id": "97e174a9-d90c-4da1-8291-c6443a0b44a2",
+  "name": "2018 NAV Hackathon Challenges",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "This is a testing platform for all 6 NAV Directions 2018 Hackathon challenges",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "runtime": "3.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}

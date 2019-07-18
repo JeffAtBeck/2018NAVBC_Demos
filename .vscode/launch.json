@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Microsoft cloud sandbox",
+            "server": "https://businesscentral.dynamics.com",
+            "sandboxName": "Sandbox",
+            "tenant": "d82c304f-62e5-4207-abb7-c1c691fe82bc",  
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true
+        }
+    ]
+}
