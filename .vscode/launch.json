@@ -8,7 +8,7 @@
             "server": "https://businesscentral.dynamics.com",
             "sandboxName": "Sandbox",
             "tenant": "d82c304f-62e5-4207-abb7-c1c691fe82bc",  
-            "startupObjectId": 50100,
+            "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true
