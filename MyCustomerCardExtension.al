@@ -32,7 +32,15 @@ pageextension 50100 MyCustomerCardExtension extends "Customer Card"
         ResponseMessage: HttpResponseMessage;
         Result: Text;
     begin
-        Message('Local Lookup Proceedure called!!')
+        Message('Local Lookup Proceedure called!!');
+
+        Content.WriteFrom('{"domain"}:"'+Name+'"');
+        Client.DefaultRequestHeaders().Add('Authorization','Bearer <YOUR KEY>');
+        Client.Post('https://api.fullcontact.com/v3/company.enrich',Content, ResponseMessage);
+        if not ResponseMessage.IsSuccessStatusCode then
+          Error('Error connecting to Web Services');
+        
+        ResponseMessage.Content().ReadAs(Result);
     end;
 
 }
